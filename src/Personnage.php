@@ -1,4 +1,5 @@
 <?php
+namespace App;
 
 class Personnage
 {
@@ -7,8 +8,8 @@ class Personnage
 
     public function __construct(string $name, int $hp)
     {
-        $this->name  = $name;
-        $this->hp    = $hp;
+        $this->name = $name;
+        $this->hp   = $hp;
     }
 
     /**
